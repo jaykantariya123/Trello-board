@@ -1,0 +1,14 @@
+.tasklist{
+    width: 25%;
+    margin: 5px;
+}
+
+.tasklist h3{
+    text-align: center;
+}
+
+.tasks{
+    margin-top: 8px;
+    padding: 2px;
+    background-color: #5c5c5c;
+}

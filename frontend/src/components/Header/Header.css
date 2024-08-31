@@ -1,0 +1,11 @@
+.header{
+    background-color:  #5c5c5c;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px #000;
+}

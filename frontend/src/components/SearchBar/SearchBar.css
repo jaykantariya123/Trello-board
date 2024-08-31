@@ -1,0 +1,40 @@
+.searchbar{
+    border: 2px solid #000;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.searchbar input{
+    margin: 5px;
+    padding: 7px;
+    border:2px solid #000;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    width: 400px;
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.searchbar select{
+    margin: 5px;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    width: 130px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.searchbar button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fcfcfc;
+    background-color: #5c5c5c;
+    width: 100px;
+    font-size: 17px;
+}
+
