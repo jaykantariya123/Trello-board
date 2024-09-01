@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from "react";
 import "./SearchBar.css";
 
-const SearchBar = ({ taskList, setTaskList,taskDescription,setTaskDescription, category ,setCategory}) => {
-  
+const SearchBar = ({
+  taskList,
+  setTaskList,
+  taskDescription,
+  setTaskDescription,
+  category,
+  setCategory,
+}) => {
   const addTask = () => {
+    if (taskDescription === "") return;
     setTaskList({
       ...taskList,
       [category]: [...taskList[category], taskDescription],
@@ -19,8 +26,10 @@ const SearchBar = ({ taskList, setTaskList,taskDescription,setTaskDescription, c
         placeholder="Enter a Task"
         onChange={(e) => setTaskDescription(e.target.value)}
         value={taskDescription}
+        required
       />
       <select
+        required
         name="TaskType"
         onChange={(e) => setCategory(e.target.value)}
         value={category}

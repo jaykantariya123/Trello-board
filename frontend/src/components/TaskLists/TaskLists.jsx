@@ -7,6 +7,8 @@ const TaskLists = ({
   setTaskList,
   setTaskDescription,
   setCategory,
+  setActiveCard,
+  onDrop
 }) => {
   return (
     <div className="task-lists">
@@ -17,6 +19,8 @@ const TaskLists = ({
         setTaskList={setTaskList}
         setTaskDescription={setTaskDescription}
         setCategory={setCategory}
+        setActiveCard={setActiveCard}
+        onDrop={onDrop}
       />
       <TaskList
         title="⏳ In Process"
@@ -25,6 +29,8 @@ const TaskLists = ({
         setTaskList={setTaskList}
         setTaskDescription={setTaskDescription}
         setCategory={setCategory}
+        setActiveCard={setActiveCard}
+        onDrop={onDrop}
       />
       <TaskList
         title="🧐 In Review"
@@ -33,6 +39,8 @@ const TaskLists = ({
         setTaskList={setTaskList}
         setTaskDescription={setTaskDescription}
         setCategory={setCategory}
+        setActiveCard={setActiveCard}
+        onDrop={onDrop}
       />
       <TaskList
         title="✅ Completed"
@@ -41,6 +49,8 @@ const TaskLists = ({
         setTaskList={setTaskList}
         setTaskDescription={setTaskDescription}
         setCategory={setCategory}
+        setActiveCard={setActiveCard}
+        onDrop={onDrop}
       />
     </div>
   );
